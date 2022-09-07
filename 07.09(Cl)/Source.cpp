@@ -28,6 +28,11 @@ public:
 		name = "DEFAULT";
 		age = 0;
 	}
+	Person(string a, int b)
+	{
+		name = a;
+		age = b;
+	}
 
 };
 
