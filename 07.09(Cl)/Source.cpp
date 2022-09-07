@@ -23,7 +23,11 @@ private:
 	string name;
 	int age;
 public:
-
+	Person()
+	{
+		name = "DEFAULT";
+		age = 0;
+	}
 
 };
 
