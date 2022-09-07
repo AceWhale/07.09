@@ -15,6 +15,10 @@ public:
 		x = X;
 		y = Y;
 	}
+	void Print()
+	{
+		cout << x << "\t" << y << "\n";
+	}
 };
 
 class Person
