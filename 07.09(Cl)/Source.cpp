@@ -37,7 +37,10 @@ public:
 		name = a;
 		age = b;
 	}
-
+	void Print()
+	{
+		cout << name << "\t" << age << "\n";
+	}
 };
 
 int main()
