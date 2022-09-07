@@ -43,6 +43,29 @@ public:
 	}
 };
 
+class Student
+{
+private:
+	string name;
+	int age;
+public:
+	Student(){}
+	Student(string n, int a)
+	{
+		name = n;
+		age = a;
+	}
+};
+
+class Academy
+{
+private:
+	Student* group;
+	int count;
+public:
+	Academy(){}
+};
+
 int main()
 {
 	Person obj1;
