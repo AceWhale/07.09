@@ -36,6 +36,13 @@ public:
 
 };
 
+class Student
+{
+private:
+	string name;
+	int age;
+public:
+};
 int main()
 {
 
